@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Setup FastKing Project 🍔
 
-## Getting Started
+Este é um projeto clone do McDonald's, desenvolvido para simular um sistema de fast food digital, incluindo pedidos online, gerenciamento de cardápio e mais.
 
-First, run the development server:
+## Funcionalidades 📦
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Navegação por Categorias**: Os usuários podem explorar produtos por categorias, facilitando a busca e a compra.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Gerenciamento do Carrinho de Compras**: Os usuários podem adicionar produtos ao carrinho, remover itens e modificar a quantidade de um produto conforme necessário.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Pagamento de Pedidos com Stripe API**: Oferecemos uma experiência de pagamento online segura com a integração da API do Stripe, incluindo o uso de webhooks para processar eventos relacionados ao pagamento. Os usuários podem finalizar seus pedidos de forma fácil e segura.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Busca por Menus de Acordo com a Loja**: Os menus de produtos são filtrados conforme a loja selecionada.
 
-## Learn More
+- **Gerenciamento de Pedidos**: Os usuários podem visualizar e acompanhar seus pedidos.
 
-To learn more about Next.js, take a look at the following resources:
+- **Detalhe do Produto**: Cada produto possui uma página com informações detalhadas.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Criação de Pedido por CPF e Nome do Usuário**: Permite que os pedidos sejam gerados vinculados a um CPF e nome do comprador.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Tecnologias Utilizadas 🚀
 
-## Deploy on Vercel
+- **React**: Construção da interface interativa do usuário.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Next.js**: Framework para SSR e SSG, garantindo performance e SEO.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **PostgreSQL**: Banco de dados relacional para armazenar pedidos e usuários.
+
+- **Prisma**: ORM para facilitar a comunicação com o banco de dados.
+
+- **Shadcn/ui**: Biblioteca de componentes modernos e estilizados.
+
+- **Tailwind CSS**: Estilização ágil com classes utilitárias.
+
